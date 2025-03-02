@@ -1,1 +1,34 @@
+# Archivos de Rider
 .idea/
+*.sln.iml
+.idea/workspace.xml
+.idea/assetWizard.xml
+.idea/sonarlint/
+.idea/tasks.xml
+.idea/libraries/
+.idea/httpRequests/
+
+# Archivos de compilación y dependencias
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.log
+*.cache
+*.config
+*.db
+*.db-journal
+
+# Archivos generados por .NET y paquetes
+*.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.assets.json
