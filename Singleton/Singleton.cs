@@ -1,3 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-Console.WriteLine("Hello, World!");
+﻿namespace Singleton;
+public class Singleton
+{
+    private static Singleton mySingleton;
+    private Singleton() {}
+    public static Singleton getInstance() {
+        if (mySingleton == null) {
+            mySingleton = new Singleton();
+        }
+        return mySingleton;
+    }
+}
