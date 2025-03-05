@@ -1,15 +1,24 @@
 namespace Singleton;
 
-public class Program {
-    
-    public static void Main(string[] args) {
-        
-        Singleton firstInstance = Singleton.getInstance();
-        Singleton secondInstance = Singleton.getInstance();
-        
-        if (firstInstance.Equals(secondInstance)) {
-            Console.WriteLine("They are the same instance");
-        }
+/*
+ *
+ * Autor: Texocotitla Pinzon Leo Francisco
+ * Fecha: 2/26/2025
+ * Ultima ejecucion: 2/28/2025
+ *
+ */
 
+
+public class Program {
+    //Metodo main
+    public static void Main(string[] args)
+    {
+        NuevoSingleton singleton = NuevoSingleton.getInstance();
+        NuevoSingleton singleton2 = NuevoSingleton.getInstance();
+        // Evaluacion de si se uso la misma instancia 
+        if (singleton == singleton2)
+        {
+            Console.WriteLine("Se uso una sola instancia");
+        }
     }
 }

@@ -1,5 +1,9 @@
 ﻿namespace Singleton;
-public class Singleton
+
+/*
+ * Author: Texocotitla Pinzon Leo Francisco
+ */
+public class NuevoSingleton
 {
     // Atributo estatico (accesible globalmente) pero privado llamado instance
     private static NuevoSingleton instance;
